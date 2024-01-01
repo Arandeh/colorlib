@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+ 
+  <nav class="d-flex justify-content-between bgc-menu ">
+    <section class="d-flex  align-items-center bgc-menu ">
+      <img  class="logo inline-block  ms-5 me-5 " src="./images/logo.png" alt="">
+      <div class="container-fluid ">
+       
+       <div id="accordion ">
+         
+             <a class="btn bgcbtn  rounded-0 inline-block font-weight-light fontcolor ps-5 pe-5 d-none d-md-block" data-bs-toggle="collapse" href="#collapseOne" data-bs-theme="dark">
+               +  <span>ASHION</span>
+             </a>
+           </div>
+           
+       </div>
+   </section>
+       
+   <section class="d-flex">
+      <a class="material-icons styleicon d-none d-lg-block" >&#xe30b;</a>
+      <a style="font-size: 24px;" class="material-icons styleicon d-none d-lg-block">&#xe331;</a>
+      <a  class="fa styleicon d-none d-lg-block" >&#xf10b;</a>
+      <a  class="glyphicon shopicon">&#xe116;</a>
+      <a style="font-size: 24px;" class="fa styleicon">&#xf00d;</a>
+
+    </section>
+  </nav>
+          <div id="collapseOne" class="collapse " data-bs-parent="#accordion" >
+            <div class="card-body text-bg-dark text-light navcolor show">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br><br><br><br><br>
+
+            </div>
+          </div>
+
+ 
+ <div class="d-flex justify-content-between align-items-center box-shadow" style="height: 85px;">
+  <div class="offcanvas offcanvas-center offcanvas-lg" id="demo2">
+    <section class="offcanvas-header d-flex flex-column justify-content-start ">
+      <button type="button" class="btn-close border border-dark rounded-circle p-4 " data-bs-dismiss="offcanvas"></button>
+      <div>
+        <i style="font-size:20px" class="fa fa1 iconsize icon1 ">&#xf002;</i>
+        <i style="font-size:20px" class="fa icon1 iconsize ">&#xf08a; <p class="rounded-circle">2</p></i>
+        <i class="material-icons icon1 iconsize me-5 ">&#xe14f; <p class="rounded-circle">2</p></i>
+      </div>
+      <img src="./images/logo.png.webp" alt="#" class="text-right" >
+      
+    </section>
+    <div class="offcanvas-body">
+      <ul class="nav d-flex justify-content-start align-items-start flex-column">
+        <li class="nav-item ">
+          <a class="nav-link " style="background-color: white; "href="#">HOME</a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">WOMEN’S</a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">MEN’S</a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">SHOP</a>
+          
+        </li>
+         
+        <li class="nav-item  dropend position-relative">
+          <a class="nav-link " data-bs-toggle="dropdown"style="background-color: white; "href="#">BAGES</a>
+          
+          <ul class="dropdown-menu z-index-4">
+            <li><a class="dropdown-item" href="#" >Product Details</a></li>
+            <li><a class="dropdown-item" href="#">Shop Cart</a></li>
+            <li><a class="dropdown-item" href="#">Checkout</a></li>
+            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"style="background-color: white; "href="#">BLOG</a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">CONTACT</a>
+          
+        </li>
+      </ul>
+      
+    </div>
+    <button class="btn ">login/Register</button>
+  </div>
+  
+  <div class="container-fluid mt-3 d-flex justify-content-between align-items-center  " >   
+    <div>
+      <img src="./images/logo.png.webp" alt="#" class="ms-5 d-flex justify-content-start">
+    </div>
+    <div class="offcanvas-body  d-none d-lg-block">
+      <ul class="nav d-flex justify-content-center align-items-center">
+        <li class="nav-item ">
+          <a class="nav-link " style="background-color: white; "href="#">HOME</a>
+          <p class="hover-line"></p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">WOMEN’S</a>
+          <p class="hover-line"></p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">MEN’S</a>
+          <p class="hover-line"></p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">SHOP</a>
+          <p class="hover-line"></p>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " data-bs-toggle="dropdown"style="background-color: white; "href="#">BAGES</a>
+          <p class="hover-line"></p>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" >Product Details</a></li>
+            <li><a class="dropdown-item" href="#">Shop Cart</a></li>
+            <li><a class="dropdown-item" href="#">Checkout</a></li>
+            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"style="background-color: white; "href="#">BLOG</a>
+          <p class="hover-line"></p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="background-color: white; "href="#">CONTACT</a>
+          <p class="hover-line"></p>
+        </li>
+      </ul>
+      
+    </div>
+    <div class="d-flex justify-content-end align-items-center  ">
+      <button class="btn d-none d-lg-block">login/Register</button>
+      <i style="font-size:20px" class="fa fa1 iconsize icon1 d-none d-lg-block">&#xf002;</i>
+      
+      <i style="font-size:20px" class="fa icon1 iconsize d-none d-lg-block">&#xf08a; <p class="rounded-circle">2</p></i>
+        
+      <i class="material-icons icon1 iconsize me-5 d-none d-lg-block">&#xe14f; <p class="rounded-circle">2</p></i>
+      <button class="btn  d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo2">
+        <span class="glyphicon border border-dark p-2" style="font-size: 20px;">&#xe236;</span>
+      </button>
+    </div>
+  </div>
+    
+  </div>
+
+
+
+  <main class="container-fluid mt-3 row  justify-content-between" >
+    
+      <div class="col-lg-6 p-2">
+        <div >
+          <img class="card-img-top cover " src="./images/category-1.jpg.webp" alt="Card image" style="height: 638px;"  >
+          <div class="card-img-overlay d-flex flex-column align-items-start p-text" style="max-width: 480px;">
+            <h1 class="card-title font-cookie">Women’s fashion</h1>
+            <p class="card-text textstyle">Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.</p>
+            <a href="#" class="btn btnText p-0">SHOP NOW</a>
+            <p class="hover-me"></p>
+           </div>
+         </div>
+      </div>
+    
+
+      <div class="col-lg-6 ">
+        
+         <div class="row ">
+          <div class="col-md-6 p-2">
+            <div  >
+              <img class="card-img-top img-fluid" src="./images/category-2.jpg.webp" alt="Card image" style="height: 314px"  >
+              <div class="card-img-overlay d-flex flex-column align-items-start text-m">
+                <h4 class="card-title display-6"><strong>Men’s fashion</strong></h4>
+                <p class="card-text textstyle">358 items</p>
+                <a href="#" class="btn btnText p-0">SHOP NOW</a>
+                <p class="hover-me"></p>
+               </div>
+             </div>
+          </div>
+           <div class="col-md-6 p-2">
+            <div  >
+              <img class="card-img-top img-fluid" src="./images/category-3.jpg.webp" alt="Card image" style="height: 314px" >
+              <div class="card-img-overlay d-flex flex-column align-items-start text-m">
+                <h4 class="card-title display-6 "><strong>Kid’s fashion</strong></h4>
+                <p class="card-text textstyle">273 items</p>
+                <a href="#" class="btn btnText p-0">SHOP NOW</a>
+                <p class="hover-me"></p>
+               </div>
+           </div>
+           </div>
+          
+          
+            <div class="col-md-6 p-2">
+              <div  >
+                <img class="card-img-top img-fluid" src="./images/category-4.jpg.webp" alt="Card image" style="height: 314px"  >
+                <div class="card-img-overlay d-flex flex-column align-items-start text-m">
+                  <h4 class="card-title display-6"><strong>Men’s fashion</strong></h4>
+                  <p class="card-text textstyle">358 items</p>
+                  <a href="#" class="btn btnText p-0">SHOP NOW</a>
+                <p class="hover-me"></p>
+                 </div>
+               </div>
+            </div>
+             <div class="col-md-6 p-2">
+              <div  >
+                <img class="card-img-top img-fluid" src="./images/category-5.jpg.webp" alt="Card image" style="height: 314px" >
+                <div class="card-img-overlay d-flex flex-column align-items-start text-m">
+                  <h4 class="card-title display-6"><strong>Kid’s fashion</strong></h4>
+                  <p class="card-text textstyle">273 items</p>
+                  <a href="#" class="btn btnText p-0">SHOP NOW</a>
+                <p class="hover-me"></p>
+                 </div>
+             </div>
+             </div>
+         </div>
+      </div>
+  </main>
+  <section class="container pt-5 mt-5">
+    <div class=" row">
+      <div class="col-lg-4 col-md-4 mb-5 ">
+        <h4 class="display-6">NEW PRODUCT</h4>
+        <p class="hover-me"></p>
+      </div>
+    <div class=" col-lg-8 col-md-8">
+      <ul class="d-flex justify-content-end mt-3 list">
+        <li class="nav-item mx-5 navitem "><a class="nav-link " href="#">All</a> </li>
+        <li class="nav-item mx-5 navitem "><a class="nav-link " href="#">Women’s</a> </li>
+        <li class="nav-item mx-5 navitem "><a class="nav-link" href="#">Men’s</a></li>
+        <li class="nav-item mx-5 navitem "><a class="nav-link" href="#">Kid’s</a></li>
+        <li class="nav-item mx-5 navitem "><a class="nav-link" href="#">Accessories</a> </li>
+        <li class="nav-item mx-5 navitem "><a class="nav-link" href="#">Cosmetics</a></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <section class="container ">
+
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class=" " style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-1.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">Buttons tweed blazer</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong> $ 59.0</strong></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class=" " style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-2.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">Flowy striped skirt</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong> $ 49.0</strong></p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="" style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-3.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">Cotton T-Shirt</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong> $ 59.0</strong></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="" style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-4.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">Slim striped pocket shirt</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong> $ 59.0</strong></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class=" " style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-5.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">Fit micro corduroy shirt</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong> $ 59.0</strong></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class=" " style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-6.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">Tropical Kimono</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong>$ 49.0 </strong></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class=" " style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-7.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">Contrasting sunglasses</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong> $ 49.0</strong></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class=" " style="width:100%; height: 80%;">
+          <img class="card-img-top" src="./images/product-8.jpg.webp" alt="Card image" style="width:100%">
+          <div class="text-center my-5">
+            <h5 class="card-title ">CWater resistant backpack</h5>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+            <p class="card-text "><strong> $ 49.0</strong></p>
+            
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+  </section>
+  <br> <br> <br>
+  <section>
+   <div class="container-fluid bg-image px-0 mx-0">
+    <div class="container pt-5 mt-5">
+      
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators text-danger">
+          <li data-target="#myCarousel" data-slide-to="0" class="active ms-2"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        
+        <div class="carousel-inner">
+          <div class="item active  ">
+            <div class="text-center  m-auto mt-5 pt-5" style="width: 500px; height: 400px;">
+              <span class="text-danger display-6">The Chloe Collection</span>
+            <h1 class="font-cookie">The Project Jacket</h1>
+            <a href="#" class="btn btnText p-0">SHOP NOW</a>
+            
+            </div>
+            
+          </div>
+    
+          <div class="item">
+            <div class="text-center  m-auto mt-5 pt-5" style="width: 500px; height: 400px;">
+              <span class="text-danger display-6">The Chloe Collection</span>
+            <h1 class="font-cookie">The Project Jacket</h1>
+            <a href="#" class="btn btnText p-0">SHOP NOW</a>
+            
+            </div>
+            
+          </div>
+        
+          <div class="item">
+            <div class="text-center  m-auto mt-5 pt-5" style="width: 500px; height: 400px;">
+              <span class="text-danger display-6">The Chloe Collection</span>
+            <h1 class="font-cookie">The Project Jacket</h1>
+            <a href="#" class="btn btnText p-0">SHOP NOW</a>
+            
+            </div>
+            
+          </div>
+        </div>
+    
+        
+        <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
+      </div>
+    </div>
+   </div>
+  </section>
+
+  <section class="my-5 ">
+
+
+    <div class="container mt-5 pt-5">
+      
+     <div class="row my-5 py-5">
+      <div class="col-lg-4 col-md-4 col-sm-6 my-3 py-3">
+        <div class="mb-5">
+          <a href="#" class=" element p-0  text-dark">HOT TREND</a>
+          <p class="hover-me mb-5"></p>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/ht-1.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Chain bucket bag</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/ht-2.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Pendant earrings</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/ht-3.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Cotton T-Shirt</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 my-3 py-3">
+        <div class="mb-5">
+          <a href="#" class=" element p-0  text-dark">BEST SELLER</a>
+          <p class="hover-me mb-5"></p>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/bs-1.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Chain bucket bag</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/bs-2.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Zip-pockets pebbled tote
+                briefcase</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/bs-3.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Round leather bag</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 my-3 py-3">
+        <div class="mb-5">
+          <a href="#" class=" element p-0  text-dark">FEATURE</a>
+          <p class="hover-me mb-5"></p>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/f-1.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Bow wrap skirt</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/f-2.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Metallic earrings</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-start mt-5 pt-5" style="width: 100%; height: 90px;">
+            <div>
+              <img src="./images/f-3.jpg.webp" alt="">
+            </div>
+            <div class="ms-5">
+              <h5 class="card-title mt-0">Flap cross-body bag</h5>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <i class="fa fa-star text-warning " style="font-size: 10px;"></i>
+              <p class="card-text "><strong> $ 59.0</strong></p>
+            </div>
+          </div>
+      </div>
+     </div>
+    </div>
+
+  </section>
+  <section class="container" style="height: 390px;">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="./images/discount.jpg.webp" alt="discount" >
+      </div>
+      <div class="col-lg-6">
+      <div class="bg-light pt-5 " style=" height: 390px;">
+        <div class=" rounded-circle position-absolute top-20 start-50 translate-middle-x z-0  " style="width: 183px; height: 183px;background-color: white;"></div>
+        
+        <div class=" position-absolute top-50 start-50 translate-middle z-1">
+          
+          <div class="text-center mt-n5 ">
+            <span>DISCOUNT</span>
+            <h2 class="text-danger font-cookie">Summer 2019</h2>
+            <h5> SALE <span  class="text-danger">50%</span></h5>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <h2 class="px-4">29<small>Day</small></h2>
+            <h2 class="px-4">10<small>Hour</small></h2>
+            <h2 class="px-4">37<small>min</small></h2>
+            <h2 class="px-4">16<small>sec</small></h2>
+          </div>
+          <div class="text-center ">
+            <a href="#" class="btn btnText p-0">SHOP NOW</a>
+              <p class="hover-me"></p>
+          </div>
+        </div>
+       
+      </div>
+      </div>
+    </div>
+  </section>
+  <div class="d-block d-lg-none">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5 py-5">
+          <div class="d-flex justify-content-center align-items-center" style="width:100%;">
+            <i class="fa fa-car text-danger " style="font-size:34px ;"></i>
+            <div class="text-start ms-5">
+              <h4 class=""><strong>Free Shipping</strong></h4>
+              <p class="text-secondary">For all oder over $99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5 py-5">
+          <div class="d-flex justify-content-center align-items-center" style="width:100%;">
+            <i class="fa fa-money text-danger " style="font-size:34px ;"></i>
+            <div class="text-start ms-5">
+              <h4 class=""><strong>Money Back Guarantee</strong></h4>
+              <p class="text-secondary">If good have Problems</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5 py-5">
+          <div class="d-flex justify-content-center align-items-center" style="width:100%;">
+            <i class="fa fa-support text-danger " style="font-size:34px ;"></i>
+            <div class="text-start ms-5">
+              <h4 class=""><strong>Online Support 24/7</strong></h4>
+              <p class="text-secondary">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5 py-5">
+          <div class="d-flex justify-content-center align-items-center" style="width:100%;">
+            <i class="fa fa-headphones text-danger " style="font-size:34px ;"></i>
+            <div class="text-start ms-5">
+              <h4 class=""><strong>Payment Secure</strong></h4>
+              <p class="text-secondary">100% secure payment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid">
+      <div class="row grid-auto-rows">
+        <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+          <div class="bg-ins1 " style="background-image: url(../images/insta-1.jpg.webp); width: 100%; height:320px;">
+            
+          </div>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+          <div class="bg-ins2" style="background-image: url(./images/insta-2.jpg.webp); width: 100%; height: 320px;">
+            
+          </div>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+          <div class="bg-ins3" style="background-image: url(./images/insta-3.jpg.webp); width: 100%; height: 320px;">
+            
+          </div>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+          <div class="bg-ins4" style="background-image: url(./images/insta-4.jpg.webp); width: 100%; height: 320px;">
+            
+          </div>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+          <div class="bg-ins5" style="background-image: url(./images/insta-5.jpg.webp); width: 100%; height: 320px;">
+            
+          </div>
+
+        </div><div class="col-lg-2 col-md-4 col-sm-4 p-0">
+          <div class="bg-ins6" style="background-image: url(./images/insta-6.jpg.webp); width: 100%; height: 320px;">
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row py-5 my-5">
+        <div class="col-lg-4 col-md-6 col-sm-7">
+           <img src="./images/logo.png.webp" alt="#" class="pb-5">
+           <p class="text-secondary py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+           <div class="d-flex">
+            <img src="./images/payment-1.png.webp" alt="#" class="px-1">
+            <img src="./images/payment-2.png.webp" alt="#" class="px-1">
+            <img src="./images/payment-3.png.webp" alt="#" class="px-1">
+            <img src="./images/payment-4.png.webp" alt="#" class="px-1">
+            <img src="./images/payment-5.png.webp" alt="#" class="px-1">
+           </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-5">
+          <h4 class="pb-5"><strong>QUICK LINKS</strong></h4>
+          <p class="text-secondary">About</p>
+          <p class="text-secondary">Blogs</p>
+          <p class="text-secondary">Contact</p>
+          <p class="text-secondary">FAQ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <h4 class="pb-5"><strong>ACCOUNT</strong></h4>
+          <p class="text-secondary">My Account</p>
+          <p class="text-secondary">Orders Tracking</p>
+          <p class="text-secondary">Checkout</p>
+          <p class="text-secondary">Wishlist</p>
+          
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-8">
+          <h4 class="pb-5"><strong>NEWSLETTER</strong></h4>
+          <div>
+            <form action="#">
+              <input class="rounded-5 ps-5 position-relative input1" type="text" placeholder="Email" style="height: 52px; width: 100%;">
+              <button type="submit" class="site-btn rounded-5 btnp">Subscribe</button>
+              </form>
+          </div>
+          <div>
+            <div class="footer__social py-4 my-4">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-youtube-play"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="bg-light mb-5" style="width:100%; height:1px;"></div>
+    <p class="text-secondary text-center mb-5">
+      Copyright © 2023 All rights reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by Colorlib
+    </p>
+  </div>
+  
+ 
+ 
+
+
+
+   
+</body>
+</html>

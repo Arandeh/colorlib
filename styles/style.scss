@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "cookie";
+    src: url(../font/Cookie-Regular.ttf);
+}
+// @font-face {
+//     font-family:"montserrat" ;
+//     src: url(../font/Montserrat-Italic-VariableFont_wght.ttf) url(../font/Montserrat-VariableFont_wght.ttf);
+// }
+// body {
+//     font-family: "montserrat";
+// }
+
+$navColor:#333333;
+$navtextcolor:#9b9b9b;
+$colorWhite:white;
+
+.logo {
+   width: 123px;
+   height:30px;
+   
+   
+}
+.bgc-menu {
+    background-color: $navColor;
+
+}
+.fontcolor {
+    color: $navtextcolor;
+}
+.bgcbtn {
+ background-color: rgb(34, 33, 33);
+ line-height: 48px;
+ text-align: center;
+
+  &:hover{
+    color: $navtextcolor;
+    background-color: rgb(34, 33, 33);
+    
+
+  }
+ 
+ 
+}
+.styleicon{
+    font-size: 30px;
+    color:$navtextcolor ;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+
+    &:hover{
+        background-color: rgb(34, 33, 33);
+        color: $colorWhite;
+        text-decoration: none;
+    }
+}
+.shopicon{
+      font-size: 24px;
+      color: $colorWhite;
+      background-color:rgb(115, 176, 22);
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    &:hover{
+        background-color: rgb(34, 33, 33);
+        color: $colorWhite;
+        text-decoration: none;
+    }
+}
+
+.nav-link{
+    color: #111111;
+    display:inline-block;
+    background-color: $colorWhite;
+    position: relative;
+    &:hover{
+        color: #111111;
+        border-radius: 0;
+        
+    
+    }
+}
+
+.hover-line {
+    position: relative;
+    margin-top: -9px;
+  }
+  
+  li:hover .hover-line{
+    width: 100% ;
+    height: 2px;
+    background-color: #ca1515;
+    animation-name: line;
+    animation-duration: 0.5s;
+    transition: all, 0.5s, ease-in-out;
+
+    @keyframes line {
+        from {transform: scale(0);}
+        to {transform: scale(0.8);}
+        
+      }
+    
+  }
+  .fa1 {
+    transform: rotate(90deg);
+    
+  }
+  .icon1{
+    position: relative;
+    text-align: center;
+    
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+    font-size: 20px;
+
+     p{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        
+        border: 1px solid black;
+        font-size: 12px;
+        font-weight: 700;
+        color: $colorWhite;
+        background-color: #111111;
+        line-height: 12px;
+        padding: 0 3px;
+        
+    }
+  }
+  .iconsize{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    
+  }
+  .box-shadow {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+.p-text {
+    padding-left: 70px;
+    padding-top: 200px;
+}
+
+
+
+
+  .textstyle {
+   font-size: 14px;
+   color: $navtextcolor;
+   line-height: 24px;
+   font-weight: 400;
+   margin: 0 0 15px 0;
+   
+   
+   
+  }
+  .font-cookie {
+    font-family: "cookie";
+    font-size: 70px;
+  }
+  .cover {
+    background-position: top;
+  }
+  
+    
+    
+  
+  .hover-me{
+    width: 80px ;
+    height: 2px;
+    background-color: #ca1515;
+    position: relative;
+    margin-top: -3px;
+    
+  }
+  .text-m{
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 100px;
+  }
+  .navitem{
+    list-style: none;
+  }
+  .list{
+
+
+    a:hover {
+        text-decoration: none;
+    }
+
+  }
+  .bg-image{
+background-image: url(../images/banner-1.jpg.webp);
+width: 98vw;
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center
+
+}  
+.element {
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.bg-ins1 , .bg-ins2 , .bg-ins3 , .bg-ins4 , .bg-ins5 , .bg-ins6 {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+
+}
+.grid-auto-rows{
+    grid-auto-rows:minmax(320px ,auto);
+}
+.input1 {
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+    color: #666666;
+}
+.btnp {
+    position: absolute;
+    top: 73px;
+    right: 18px;
+}
+.site-btn {
+    font-size: 14px;
+    color: #ffffff;
+    background: #ca1515;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    z-index: 5;
+}
+.footer__social a {
+display: inline-block;
+height: 40px;
+width: 40px;
+background: #e1e1e1;
+font-size: 15px;
+color: #111111;
+line-height: 40px;
+text-align: center;
+border-radius: 50%;
+margin-right: 6px;
+margin-bottom: 5px;
+}
+  
